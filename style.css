@@ -41,6 +41,7 @@ body{
     outline: none;
     background: none;
     border: 1px solid black;
+    overflow: hidden;
 }
 
 .input-container{
