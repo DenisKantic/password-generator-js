@@ -34,6 +34,7 @@ body{
 #passwordDisplay{
     text-align: center;
     margin: 20px 0;
+    font-size: 18px;
 }
 
 .input-container{
@@ -57,4 +58,8 @@ body{
     border-radius: 10px;
     background-color: #f25287;
     color: white;
+}
+
+#generateBtn:hover{
+    background-color: #f72f72;
 }
