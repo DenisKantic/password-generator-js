@@ -12,14 +12,49 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #2b2e4a;
+    background-color: #f25287;
 }
 
 .container{
-    height: 350px;
-    width: 550px;
-    background-color: #e84545;
+    height: 300px;
+    width: 500px;
+    background-color: #DDDDDD;
     border-radius: 10px;
     overflow: hidden;
     outline: none;
+    color: rgb(37, 37, 37);
+}
+
+#title{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+#passwordDisplay{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.input-container{
+    width: 450px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 8rem;
+}
+
+#generateBtn{
+    display: grid;
+    grid-column: 2 span;
+    margin-top: 20px;
+    height: 30px;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #f25287;
+    color: white;
 }
